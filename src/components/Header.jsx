@@ -7,7 +7,7 @@ const Header = React.memo(({ setOpen }) => {
   console.log("Header rendered");
   return (
     <header className="border-b h-20 bg-white fixed w-full top-0 z-10">
-      <div className="px-10 w-full h-full mx-auto flex items-center container">
+      <div className="px-6 sm:px-10 w-full h-full mx-auto flex items-center container">
         <div className="w-full flex justify-between">
           <div
             onClick={() => setOpen((prev) => !prev)}

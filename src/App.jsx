@@ -16,7 +16,7 @@ function App() {
     <>
       <Header setOpen={setOpen}/>
       <Sidebar onSelectCategory={setCategory} setOpenClose={setOpen} open={open}/>
-      <div className='flex w-full h-auto my-24 px-10 gap-x-4'>
+      <div className='flex w-full h-auto my-24 px-6 sm:px-10 gap-x-4'>
         <NewsFeed category={category} onArticleSelect={setSelectedArticle} selectedArticle={selectedArticle}/>
         {selectedArticle && <PreviewPage article={selectedArticle} closePreview={setSelectedArticle}/>}
       </div>

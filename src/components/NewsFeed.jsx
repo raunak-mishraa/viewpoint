@@ -51,7 +51,7 @@ const NewsFeed = ({category, onArticleSelect, selectedArticle }) => {
   }]
 
   return (
-    <section className={`${selectedArticle ? 'w-1/2': 'w-full max-w-5xl mx-auto'} h-auto flex gap-y-4 flex-col rounded-xl`}>
+    <section className={`${selectedArticle ? 'sm:w-1/2': 'w-full sm:max-w-5xl mx-auto'} h-auto flex gap-y-4 flex-col rounded-xl`}>
       {/* className='h-auto relative max-w-5xl mx-auto p-4 rounded-xl' */}
       {/* <NewsCard articles={articles} /> */}
       {
